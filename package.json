@@ -29,6 +29,7 @@
     "popper.js": "^1.14.3",
     "rxjs": "^6.0.0",
     "rxjs-compat": "^6.1.0",
+    "stream": "^0.0.2",
     "swagger-ui": "^3.14.1",
     "zone.js": "^0.8.26"
   },

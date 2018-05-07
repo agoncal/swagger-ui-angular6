@@ -24,6 +24,7 @@ $ yarn add bootstrap@4.1.1
 $ yarn add @ng-bootstrap/ng-bootstrap@2.0.0
 $ yarn add swagger-ui@3.14.1
 $ yarn add rxjs-compat@6.1.0
+$ yarn add stream@0.0.2
 
 # Create a new Swagger component
 $ ng generate component swagger --spec false --module app --export true --inline-style true
