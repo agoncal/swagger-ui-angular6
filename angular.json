@@ -5,6 +5,7 @@
   "projects": {
     "swagger": {
       "root": "",
+      "sourceRoot": "src",
       "projectType": "application",
       "prefix": "app",
       "schematics": {
@@ -41,25 +42,15 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "src/tsconfig.app.json",
             "assets": [
-              {
-                "glob": "favicon.ico",
-                "input": "src",
-                "output": "/"
-              },
-              {
-                "glob": "**/*",
-                "input": "src/assets",
-                "output": "/assets"
-              }
+              "src/favicon.ico",
+              "src/assets"
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.css",
               "node_modules/swagger-ui/dist/swagger-ui.css",
               "node_modules/@fortawesome/fontawesome-free/css/all.css",
               "src/jumbotron.css",
-              {
-                "input": "src/styles.css"
-              }
+              "src/styles.css"
             ],
             "scripts": [
               "node_modules/jquery/dist/jquery.slim.js",
@@ -116,16 +107,8 @@
             ],
             "scripts": [],
             "assets": [
-              {
-                "glob": "favicon.ico",
-                "input": "src/",
-                "output": "/"
-              },
-              {
-                "glob": "**/*",
-                "input": "src/assets",
-                "output": "/assets"
-              }
+              "src/favicon.ico",
+              "src/assets"
             ]
           }
         },

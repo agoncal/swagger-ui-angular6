@@ -20,10 +20,10 @@ $ ng new swagger --directory swagger-ui-angular6 --routing true --skip-tests tru
 $ yarn add @fortawesome/fontawesome-free@5.1.0-4
 $ yarn add popper.js@1.14.3
 $ yarn add jquery@3.3.1
-$ yarn add bootstrap@4.1.0
-$ yarn add @ng-bootstrap/ng-bootstrap@1.1.2
-$ yarn add swagger-ui@3.3.2
-$ yarn add rxjs-compat@6.0.0
+$ yarn add bootstrap@4.1.1
+$ yarn add @ng-bootstrap/ng-bootstrap@2.0.0
+$ yarn add swagger-ui@3.14.1
+$ yarn add rxjs-compat@6.1.0
 
 # Create a new Swagger component
 $ ng generate component swagger --spec false --module app --export true --inline-style true
