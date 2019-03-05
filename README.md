@@ -1,10 +1,10 @@
-# Angular CLI 6 + Angular 6 + Swagger-UI + Bootstrap 4 + FontAwesome 5 example app
+# Angular CLI 7 + Angular 7 + Swagger-UI + Bootstrap 4.1 + FontAwesome 5 example app
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0-rc.6.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.4.
 
 ## Start the project
 
-Run `yarn install` and `ng serve`. Server will start at port 4200. Go to localhost:4200.
+Run `npm install` and `ng serve`. Server will start at port 4200. Go to localhost:4200.
 
 ## How the project was created
 
@@ -14,17 +14,17 @@ Here are the commands and the steps that were used to create this project
 
 ```
 # Create a new Angular project with Angular CLI
-$ ng new swagger --directory swagger-ui-angular6 --routing true --skip-tests true --inline-style true
+$ ng new swagger --directory swagger-ui-angular6 --routing true --skip-tests true --inline-style true --style=css
 
 # Add the needed dependencies
-$ yarn add @fortawesome/fontawesome-free@5.1.0-4
-$ yarn add popper.js@1.14.3
-$ yarn add jquery@3.3.1
-$ yarn add bootstrap@4.1.1
-$ yarn add @ng-bootstrap/ng-bootstrap@2.0.0
-$ yarn add swagger-ui@3.14.1
-$ yarn add rxjs-compat@6.1.0
-$ yarn add stream@0.0.2
+$ npm install @fortawesome/fontawesome-free@5.7.2
+$ npm install popper.js@1.14.7
+$ npm install jquery@3.3.1
+$ npm install bootstrap@4.3.1
+$ npm install @ng-bootstrap/ng-bootstrap@4.1.0
+$ npm install swagger-ui@3.21.0
+$ npm install rxjs-compat@6.4.0
+$ npm install stream@0.0.2
 
 # Create a new Swagger component
 $ ng generate component swagger --spec false --module app --export true --inline-style true
@@ -63,4 +63,4 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 ## References
 
-https://github.com/shockey/swagger-ui-angular4
+* https://github.com/shockey/swagger-ui-angular4
